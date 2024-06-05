@@ -1,16 +1,16 @@
 {
     "context": {
-        "transaction_id": "ea580525-6be5-45e0-8576-a24579c37051",
+        "transaction_id": "a0aa962f-4c4c-4f36-b027-6f1fd8a4e8b3",
         "country": "IND",
-        "city": "std:080",
+        "city": "*",
         "domain": "ONDC:RET11",
         "action": "search",
-        "message_id": "be56478e-1a4b-4801-bb83-f1e5d7a05627",
+        "message_id": "84be85bc-2a95-408d-9a9b-21467a12c3ab",
         "core_version": "1.2.0",
         "ttl": "PT30S",
         "bap_uri": "https://ref-app-buyer-staging-v2.ondc.org/protocol/v1",
         "bap_id": "ref-app-buyer-staging-v2.ondc.org",
-        "timestamp": "2024-06-05T06:00:01.634Z"
+        "timestamp": "2024-06-03T21:30:14.736Z"
     },
     "message": {
         "intent": {
@@ -18,9 +18,17 @@
                 "@ondc/org/buyer_app_finder_fee_type": "percent",
                 "@ondc/org/buyer_app_finder_fee_amount": "3"
             },
-            "fulfillment": {
-                "type": "Delivery"
-            }
+            "tags": [
+                {
+                    "code": "catalog_inc",
+                    "list": [
+                        {
+                            "code": "mode",
+                            "value": "start"
+                        }
+                    ]
+                }
+            ]
         }
     }
 }
