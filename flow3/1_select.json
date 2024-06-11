@@ -1,0 +1,79 @@
+{
+    "context": {
+        "transaction_id": "cc9e41ec-cafb-4d19-be3b-c01e28faa8d8",
+        "country": "IND",
+        "bpp_id": "poketpos.com",
+        "city": "std:022",
+        "message_id": "603aa6eb-f986-4e47-8dad-c5eb2176f16f",
+        "core_version": "1.2.0",
+        "ttl": "PT30S",
+        "bap_id": "ref-app-buyer-staging-v2.ondc.org",
+        "domain": "ONDC:RET11",
+        "bpp_uri": "https://poketpos.com/poketposondc/rest/ondccb",
+        "action": "select",
+        "bap_uri": "https://ref-app-buyer-staging-v2.ondc.org/protocol/v1",
+        "timestamp": "2024-06-11T07:30:54.494Z"
+    },
+    "message": {
+        "order": {
+            "fulfillments": [
+                {
+                    "end": {
+                        "location": {
+                            "address": {
+                                "area_code": "400080"
+                            },
+                            "gps": "19.17590609491144,72.9487305879593"
+                        }
+                    }
+                }
+            ],
+            "provider": {
+                "locations": [
+                    {
+                        "id": "L1"
+                    }
+                ],
+                "id": "13385^1"
+            },
+            "items": [
+                {
+                    "quantity": {
+                        "count": 3
+                    },
+                    "id": "13385^1^2940",
+                    "location_id": "L1",
+                    "tags": [
+                        {
+                            "code": "type",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "item"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "quantity": {
+                        "count": 3
+                    },
+                    "id": "13385^1^3129",
+                    "location_id": "L1",
+                    "tags": [
+                        {
+                            "code": "type",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "item"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
