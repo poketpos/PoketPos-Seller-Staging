@@ -1,0 +1,20 @@
+{
+    "context": {
+        "transaction_id": "198d6698-f452-4e6e-83fd-f50915d98307",
+        "country": "IND",
+        "bpp_id": "poketpos.com",
+        "city": "std:022",
+        "message_id": "cebdcd32-895c-46a0-84b9-b1de845ffd93",
+        "core_version": "1.2.0",
+        "ttl": "PT30S",
+        "bap_id": "ref-app-buyer-staging-v2.ondc.org",
+        "domain": "ONDC:RET11",
+        "bpp_uri": "https://poketpos.com/poketposondc/rest/ondccb",
+        "action": "status",
+        "bap_uri": "https://ref-app-buyer-staging-v2.ondc.org/protocol/v1",
+        "timestamp": "2024-06-11T08:27:49.887Z"
+    },
+    "message": {
+        "order_id": "2024-06-11-414248"
+    }
+}
