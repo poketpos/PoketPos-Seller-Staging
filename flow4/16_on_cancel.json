@@ -17,7 +17,7 @@
         "order": {
             "fulfillments": [
                 {
-                    "@ondc/org/TAT": "PT30M",
+                    "@ondc/org/TAT": "PT31M",
                     "start": {
                         "contact": {
                             "phone": "7718881209",
