@@ -1,0 +1,300 @@
+{
+    "context": {
+      "transaction_id": "e2efc92d-742f-4d8d-8d01-317d162df32a",
+      "country": "IND",
+      "bpp_id": "poketpos.com",
+      "city": "std:022",
+      "message_id": "7be41101-1efa-4b5f-8033-c53f592d25ab",
+      "core_version": "1.2.0",
+      "ttl": "PT30S",
+      "bap_id": "ref-app-buyer-staging-v2.ondc.org",
+      "domain": "ONDC:RET11",
+      "bpp_uri": "https://poketpos.com/poketposondc/rest/ondccb",
+      "action": "confirm",
+      "bap_uri": "https://ref-app-buyer-staging-v2.ondc.org/protocol/v1",
+      "timestamp": "2024-06-17T12:04:39.260Z"
+    },
+    "message": {
+      "order": {
+        "fulfillments": [
+          {
+            "@ondc/org/TAT": "PT30M",
+            "end": {
+              "person": {
+                "name": "Prasad Mulund Station"
+              },
+              "contact": {
+                "phone": "9326164658",
+                "email": "pmahimkar@gmail.com"
+              },
+              "location": {
+                "address": {
+                  "country": "IND",
+                  "city": "Mumbai",
+                  "area_code": "400080",
+                  "name": "Prasad Mulund Station",
+                  "locality": "Devi Dayal Marg",
+                  "state": "Maharashtra",
+                  "building": "Sharon English High School"
+                },
+                "gps": "19.17590609491144,72.9487305879593"
+              }
+            },
+            "id": "F1",
+            "type": "Delivery",
+            "tracking": true
+          }
+        ],
+        "quote": {
+          "breakup": [
+            {
+              "@ondc/org/item_id": "13385^1^2918",
+              "item": {
+                "quantity": {
+                  "available": {
+                    "count": "99"
+                  },
+                  "maximum": {
+                    "count": "99"
+                  },
+                  "unitized": {
+                    "measure": {
+                      "unit": "unit",
+                      "value": "1"
+                    }
+                  },
+                  "selected": {
+                    "count": "3"
+                  }
+                },
+                "price": {
+                  "currency": "INR",
+                  "maximum_value": "45",
+                  "value": "45"
+                },
+                "tags": [
+                  {
+                    "code": "type",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "price": {
+                "currency": "INR",
+                "maximum_value": "135",
+                "value": "135"
+              },
+              "@ondc/org/title_type": "item",
+              "title": "Butter Milk",
+              "type": "item",
+              "@ondc/org/item_quantity": {
+                "count": 3
+              }
+            },
+            {
+              "@ondc/org/item_id": "13385^1^2916",
+              "item": {
+                "quantity": {
+                  "available": {
+                    "count": "99"
+                  },
+                  "maximum": {
+                    "count": "99"
+                  },
+                  "unitized": {
+                    "measure": {
+                      "unit": "unit",
+                      "value": "1"
+                    }
+                  },
+                  "selected": {
+                    "count": "2"
+                  }
+                },
+                "price": {
+                  "currency": "INR",
+                  "maximum_value": "60",
+                  "value": "60"
+                },
+                "tags": [
+                  {
+                    "code": "type",
+                    "list": [
+                      {
+                        "code": "type",
+                        "value": "item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "price": {
+                "currency": "INR",
+                "maximum_value": "120",
+                "value": "120"
+              },
+              "@ondc/org/title_type": "item",
+              "title": "Kesar Lassi",
+              "type": "item",
+              "@ondc/org/item_quantity": {
+                "count": 2
+              }
+            },
+            {
+              "@ondc/org/item_id": "F1",
+              "price": {
+                "currency": "INR",
+                "maximum_value": "0",
+                "value": "0"
+              },
+              "@ondc/org/title_type": "delivery",
+              "title": "Delivery Charges",
+              "type": "delivery"
+            }
+          ],
+          "price": {
+            "currency": "INR",
+            "value": "255"
+          },
+          "ttl": "PT24H"
+        },
+        "updated_at": "2024-06-17T12:04:39.260Z",
+        "provider": {
+          "locations": [
+            {
+              "id": "L1"
+            }
+          ],
+          "id": "13385^1"
+        },
+        "created_at": "2024-06-17T12:04:39.260Z",
+        "payment": {
+          "@ondc/org/settlement_window": "P1D",
+          "@ondc/org/settlement_basis": "delivery",
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/withholding_amount": "0.00",
+          "collected_by": "BAP",
+          "params": {
+            "transaction_id": "order_OL3FDEsn5JSy6v",
+            "amount": "255.00",
+            "currency": "INR"
+          },
+          "type": "ON-ORDER",
+          "uri": "https://razorpay.com/",
+          "tl_method": "http/get",
+          "status": "PAID",
+          "@ondc/org/buyer_app_finder_fee_amount": "3.0",
+          "@ondc/org/settlement_details": [
+            {
+              "beneficiary_name": "Ravi",
+              "settlement_phase": "sale-amount",
+              "settlement_counterparty": "seller-app",
+              "upi_address": "ravirana@okupi",
+              "settlement_type": "upi"
+            }
+          ]
+        },
+        "id": "2024-06-10-772815",
+        "state": "Created",
+        "items": [
+          {
+            "quantity": {
+              "count": 2
+            },
+            "id": "13385^1^2916",
+            "fulfillment_id": "F1",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "quantity": {
+              "count": 3
+            },
+            "id": "13385^1^2918",
+            "fulfillment_id": "F1",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "billing": {
+          "address": {
+            "country": "IND",
+            "city": "Mumbai",
+            "area_code": "400080",
+            "name": "Prasad Mulund Station",
+            "locality": "Devi Dayal Marg",
+            "state": "Maharashtra",
+            "building": "Sharon English High School"
+          },
+          "updated_at": "2024-06-10T12:04:07.823Z",
+          "phone": "9326164658",
+          "name": "Prasad Mulund Station",
+          "created_at": "2024-06-10T12:04:07.823Z",
+          "email": "pmahimkar@gmail.com"
+        },
+        "tags": [
+          {
+            "code": "bpp_terms",
+            "list": [
+              {
+                "code": "max_liability",
+                "value": "2"
+              },
+              {
+                "code": "max_liability_cap",
+                "value": "10000.00"
+              },
+              {
+                "code": "mandatory_arbitration",
+                "value": "false"
+              },
+              {
+                "code": "court_jurisdiction",
+                "value": "Mumbai"
+              },
+              {
+                "code": "delay_interest",
+                "value": "100.00"
+              },
+              {
+                "code": "tax_number",
+                "value": "27AAMCP0367J1Z2"
+              }
+            ]
+          },
+          {
+            "code": "bap_terms",
+            "list": [
+              {
+                "code": "tax_number",
+                "value": "GSTIN1234567890"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

@@ -1,0 +1,79 @@
+{
+    "context": {
+      "transaction_id": "e2efc92d-742f-4d8d-8d01-317d162df32a",
+      "country": "IND",
+      "bpp_id": "poketpos.com",
+      "city": "std:022",
+      "message_id": "a9ca64ce-72ff-4c77-bdc5-40455da77766",
+      "core_version": "1.2.0",
+      "ttl": "PT30S",
+      "bap_id": "ref-app-buyer-staging-v2.ondc.org",
+      "domain": "ONDC:RET11",
+      "bpp_uri": "https://poketpos.com/poketposondc/rest/ondccb",
+      "action": "select",
+      "bap_uri": "https://ref-app-buyer-staging-v2.ondc.org/protocol/v1",
+      "timestamp": "2024-06-17T12:03:50.978Z"
+    },
+    "message": {
+      "order": {
+        "fulfillments": [
+          {
+            "end": {
+              "location": {
+                "address": {
+                  "area_code": "400080"
+                },
+                "gps": "19.17590609491144,72.9487305879593"
+              }
+            }
+          }
+        ],
+        "provider": {
+          "locations": [
+            {
+              "id": "L1"
+            }
+          ],
+          "id": "13385^1"
+        },
+        "items": [
+          {
+            "quantity": {
+              "count": 2
+            },
+            "id": "13385^1^2916",
+            "location_id": "L1",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "quantity": {
+              "count": 3
+            },
+            "id": "13385^1^2918",
+            "location_id": "L1",
+            "tags": [
+              {
+                "code": "type",
+                "list": [
+                  {
+                    "code": "type",
+                    "value": "item"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
