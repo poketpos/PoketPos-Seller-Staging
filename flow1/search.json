@@ -1,26 +1,26 @@
 {
     "context": {
-        "transaction_id": "ea580525-6be5-45e0-8576-a24579c37051",
-        "country": "IND",
-        "city": "std:080",
-        "domain": "ONDC:RET11",
-        "action": "search",
-        "message_id": "be56478e-1a4b-4801-bb83-f1e5d7a05627",
-        "core_version": "1.2.0",
-        "ttl": "PT30S",
-        "bap_uri": "https://ref-app-buyer-staging-v2.ondc.org/protocol/v1",
-        "bap_id": "ref-app-buyer-staging-v2.ondc.org",
-        "timestamp": "2024-06-05T06:00:01.634Z"
+      "domain": "ONDC:RET11",
+      "action": "search",
+      "country": "IND",
+      "city": "std:022",
+      "core_version": "1.2.0",
+      "bap_id": "buyer-app-preprod-v2.ondc.org",
+      "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+      "transaction_id": "84bfc2ff-3308-43e9-94f7-d8b56a431c9f",
+      "message_id": "d2fdfadf-b50a-493a-a689-dae952b02bf9",
+      "timestamp": "2024-06-17T10:03:38.594Z",
+      "ttl": "PT30S"
     },
     "message": {
-        "intent": {
-            "payment": {
-                "@ondc/org/buyer_app_finder_fee_type": "percent",
-                "@ondc/org/buyer_app_finder_fee_amount": "3"
-            },
-            "fulfillment": {
-                "type": "Delivery"
-            }
+      "intent": {
+        "fulfillment": {
+          "type": "Delivery"
+        },
+        "payment": {
+          "@ondc/org/buyer_app_finder_fee_type": "percent",
+          "@ondc/org/buyer_app_finder_fee_amount": "3"
         }
+      }
     }
-}
+  }
